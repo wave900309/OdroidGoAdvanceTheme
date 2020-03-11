@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <formatVersion>4</formatVersion>
+    <include>./../theme.xml</include>
+    
+    <view name="system">
+    
+        <image name="logo">
+            <path>./genesis.svg</path>
+        </image>
+        
+    </view>
+   
+    <view name="basic,detailed">
+    
+         <image name="system" extra="true">
+            <pos>0.02 0.05</pos>
+            <maxSize>0.45 0.45</maxSize>
+            <origin>0 0</origin>
+            <path>./genesis.svg</path>
+            <zIndex>3</zIndex>
+        </image>
+        
+    </view>
+
+</theme>
+

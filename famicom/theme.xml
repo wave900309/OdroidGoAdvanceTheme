@@ -1,0 +1,29 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../theme.xml</include>
+
+	<view name="system">
+		<image name="logo">
+			<path>./famicom.svg</path>
+		</image>
+	</view>	
+	
+  	<view name="detailed, video">
+                <image name="system" extra="true">
+                   <pos>0.02 0.05</pos>
+                   <maxSize>0.55 0.55</maxSize>
+                   <origin>0 0</origin>
+                   <path>./famicom.svg</path>
+                   <zIndex>3</zIndex>            
+                </image>
+	</view>	
+  	<view name="basic">
+                <image name="system" extra="true">
+                   <origin>0.5 0</origin>
+                   <pos>0.5 0.02</pos>
+                   <maxSize>1 .12</maxSize>
+                   <path>./famicom.svg</path>
+                   <zIndex>3</zIndex>            
+                </image>
+	</view>		
+</theme>

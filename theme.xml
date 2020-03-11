@@ -1,0 +1,132 @@
+<!--
+theme name:     Odroid Go Advance Theme for Retro Arena 
+creator:		Travis Wilson (Super Retropie and Retro Gaming)
+facebook:		www.facebook.com/groups/superretropie
+twitter:		www.twitter.com/superretropie
+email:			superretropieretrogaming@gmail.com
+version         1.1
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <formatVersion>4</formatVersion>
+    
+    <!-- carousel begin -->
+    <feature supported="carousel">
+    
+        <view name="system">
+        
+            <carousel name="systemcarousel">
+                <type>horizontal</type>
+                <pos>0.0 0.0</pos>
+                <logoAlignment>middle</logoAlignment>
+                <size>1 1</size>
+                <logoScale>3</logoScale>
+                <zIndex>4</zIndex>
+                <logoSize>0.2 0.2</logoSize>
+                <color>00000000</color>
+                <maxLogoCount>1.5</maxLogoCount>
+            </carousel>
+            
+            <image name="background" extra="true">
+                <origin>0 0</origin>
+                <pos>0 0</pos>
+                <size>1 1</size>
+                <zIndex>2</zIndex>
+                <path>./_inc/images/background.png</path>
+            </image>
+            
+            <text name="systemInfo">
+                <pos>0.0 0.66</pos>
+                <color>111111</color>
+                <fontPath>./_inc/fonts/babar.ttf</fontPath>
+                <fontSize>0.05</fontSize>
+                <backgroundColor>ffffff33</backgroundColor>
+                <zIndex>5</zIndex>
+            </text>
+            
+            <helpsystem name="help">
+                <fontPath>./_inc/fonts/baba.ttf</fontPath>
+                <fontSize>0.034</fontSize>
+                <pos>0.1 0.968</pos>
+                <textColor>111111</textColor>
+                <iconColor>111111</iconColor>
+            </helpsystem>
+        </view>
+        
+    </feature>
+    <!-- carousel end -->
+    
+    <!-- detailed start -->
+    <view name="basic, detailed">
+    
+        <image name="background" extra="true">
+            <origin>0 0</origin>
+            <pos>0 0</pos>
+            <size>1 1</size>
+            <path>./_inc/images/background_basic.png</path>
+            <zIndex>1</zIndex>
+        </image>
+        
+        <textlist name="gamelist">
+            <selectorColor>cccccc22</selectorColor>
+            <selectedColor>222222</selectedColor>
+            <primaryColor>111111</primaryColor>
+            <secondaryColor>111111</secondaryColor>
+            <fontPath>./_inc/fonts/baba.ttf</fontPath>
+            <fontSize>0.06</fontSize>
+            <origin>0 0</origin>
+            <pos>0.015 0.227</pos>
+            <size>0.47 0.71</size>
+            <alignment>left</alignment>
+            <zIndex>6</zIndex>
+        </textlist>
+        
+        <image name="md_image">
+            <origin>1 0</origin>
+            <pos>0.985 0.227</pos>
+            <maxSize>0.45 0.71</maxSize>
+            <zIndex>2</zIndex>
+        </image>
+        
+        <text name="md_lbl_releasedate">
+            <size>0.2 0.1</size>
+            <fontPath>./_inc/fonts/baba.ttf</fontPath>
+            <alignment>right</alignment>
+            <fontSize>0.05</fontSize>
+            <origin>1 0</origin>
+            <pos>0.985 0.08</pos>
+            <zIndex>9</zIndex>
+        </text>
+        <datetime name="md_releasedate">
+            <size>0.2 0.1</size>
+            <fontPath>./_inc/fonts/baba.ttf</fontPath>
+            <alignment>right</alignment>
+            <fontSize>0.05</fontSize>
+            <origin>1 0</origin>
+            <pos>0.985 0.14</pos>
+            <zIndex>9</zIndex>
+        </datetime>
+        
+        <helpsystem name="help">
+            <fontPath>./_inc/fonts/baba.ttf</fontPath>
+            <pos>0 0.968</pos>
+            <textColor>111111</textColor>
+            <iconColor>111111</iconColor>
+        </helpsystem>
+        
+    </view>
+    <!-- detailed end -->
+
+    <!-- basic gamelist position overwrite start -->
+    <view name="basic">
+    
+        <textlist name="gamelist">
+            <size>0.97 0.6</size>
+        </textlist>
+        
+    </view>
+    <!-- basic gamelist position overwrite end -->
+    
+</theme>
+
+

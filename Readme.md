@@ -1,2 +1,2 @@
-OGA»òÆäËû480x320·Ö±æÂÊÊÊºÏÊ¹ÓÃµÄESÖ÷Ìâ¡£
-Theme for EmulationStation on Odroid Go Advance or Other 480x320 resolution device.
+OGAæˆ–å…¶ä»–480x320åˆ†è¾¨ç‡è®¾å¤‡é€‚ç”¨çš„ESä¸»é¢˜ã€‚  
+ Theme for EmulationStation on Odroid Go Advance or Other 480x320 resolution device.

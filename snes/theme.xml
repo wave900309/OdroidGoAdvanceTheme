@@ -28,13 +28,13 @@
         <textlist name="gamelist">
             <origin>0 0</origin>
             <pos>0.015 0.227</pos>
-            <size>0.3 0.71</size>
+            <size>0.34 0.71</size>
         </textlist>
         
         <image name="md_image">
             <origin>1 0</origin>
             <pos>0.985 0.227</pos>
-            <maxSize>0.65 0.71</maxSize>
+            <maxSize>0.6 0.71</maxSize>
         </image>
         
     </view>

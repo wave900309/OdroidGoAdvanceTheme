@@ -68,7 +68,7 @@ version         1.1
         </image>
         
         <textlist name="gamelist">
-            <selectorColor>cccccc22</selectorColor>
+            <selectorColor>cccccc44</selectorColor>
             <selectedColor>222222</selectedColor>
             <primaryColor>111111</primaryColor>
             <secondaryColor>111111</secondaryColor>
